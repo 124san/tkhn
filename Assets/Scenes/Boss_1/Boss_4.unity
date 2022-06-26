@@ -753,15 +753,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5320628573865827605, guid: bb03184e2a421c947b086a0c477c2df1, type: 3}
       propertyPath: boots
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5320628573865827605, guid: bb03184e2a421c947b086a0c477c2df1, type: 3}
       propertyPath: sword
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5320628573865827605, guid: bb03184e2a421c947b086a0c477c2df1, type: 3}
       propertyPath: maxJump
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5320628573865827610, guid: bb03184e2a421c947b086a0c477c2df1, type: 3}
       propertyPath: m_RootOrder
@@ -29292,6 +29292,14 @@ PrefabInstance:
     - target: {fileID: 1086556862922681900, guid: 23c4986d0cd78364bbd41b8165b8e4d8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1086556862922681901, guid: 23c4986d0cd78364bbd41b8165b8e4d8, type: 3}
+      propertyPath: destroyBgmOnLoad
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1086556862922681901, guid: 23c4986d0cd78364bbd41b8165b8e4d8, type: 3}
+      propertyPath: destroyBgmOnNextLevel
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1086556862922681903, guid: 23c4986d0cd78364bbd41b8165b8e4d8, type: 3}
       propertyPath: m_Name

@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class LevelLoader : MonoBehaviour
 {
     public Animator transition;
+     [SerializeField] bool destroyBgmOnNextLevel = false;
 
     public float transitionTime = 1f;
 
@@ -14,6 +15,7 @@ public class LevelLoader : MonoBehaviour
     }
 
     public void LoadNextLevel() {
+        if (destroyBgmOnNextLevel) DestroyBgm();
         StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));
     }
 
@@ -24,5 +26,8 @@ public class LevelLoader : MonoBehaviour
         yield return new WaitForSeconds(transitionTime);
         // Load scene
         SceneManager.LoadScene(levelIndex);
+    }
+    void DestroyBgm() {
+        GameObject.Destroy(GameObject.Find("Background music"));
     }
 }

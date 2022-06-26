@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class SceneLoader : MonoBehaviour
 {
     [SerializeField] bool destroyBgmOnLoad = false;
+    [SerializeField] bool allowRestart = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,6 +18,9 @@ public class SceneLoader : MonoBehaviour
     {
         if (Input.anyKey) {
             LoadNextScene();
+        }
+        if (allowRestart && Input.GetKeyDown("r")) {
+            SceneManager.LoadScene(0);
         }
     }
 

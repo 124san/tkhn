@@ -757,7 +757,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5320628573865827605, guid: bb03184e2a421c947b086a0c477c2df1, type: 3}
       propertyPath: sword
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5320628573865827605, guid: bb03184e2a421c947b086a0c477c2df1, type: 3}
       propertyPath: maxJump

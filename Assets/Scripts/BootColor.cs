@@ -16,6 +16,9 @@ public class BootColor : MonoBehaviour
 
     public void changeColor(Color c)
     {
+        rend = GetComponent<Renderer>();
+        print(rend);
+        print(c);
         rend.material.color = c;
     }
 }

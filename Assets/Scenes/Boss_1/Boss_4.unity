@@ -747,6 +747,34 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 473598676096512142, guid: bb03184e2a421c947b086a0c477c2df1, type: 3}
+      propertyPath: colorToTurnTo.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 473598676096512142, guid: bb03184e2a421c947b086a0c477c2df1, type: 3}
+      propertyPath: colorToTurnTo.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 473598676096512142, guid: bb03184e2a421c947b086a0c477c2df1, type: 3}
+      propertyPath: colorToTurnTo.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 967498971649334740, guid: bb03184e2a421c947b086a0c477c2df1, type: 3}
+      propertyPath: colorToTurnTo.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 967498971649334740, guid: bb03184e2a421c947b086a0c477c2df1, type: 3}
+      propertyPath: colorToTurnTo.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 967498971649334740, guid: bb03184e2a421c947b086a0c477c2df1, type: 3}
+      propertyPath: colorToTurnTo.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5320628573390206412, guid: bb03184e2a421c947b086a0c477c2df1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5320628573865827605, guid: bb03184e2a421c947b086a0c477c2df1, type: 3}
       propertyPath: armor
       value: 0

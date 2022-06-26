@@ -291,6 +291,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5320628573865827605, guid: bb03184e2a421c947b086a0c477c2df1, type: 3}
+      propertyPath: armor
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5320628573865827605, guid: bb03184e2a421c947b086a0c477c2df1, type: 3}
       propertyPath: attackPoint
       value: 
       objectReference: {fileID: 426402940}
@@ -23658,11 +23662,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 227643794164199030, guid: 0798a4aba1b6bb0479d454888021959d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.84
+      value: 2.59
       objectReference: {fileID: 0}
     - target: {fileID: 227643794164199030, guid: 0798a4aba1b6bb0479d454888021959d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.31
+      value: 1.66
       objectReference: {fileID: 0}
     - target: {fileID: 227643794164199030, guid: 0798a4aba1b6bb0479d454888021959d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -23767,7 +23771,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1086556862922681903, guid: 23c4986d0cd78364bbd41b8165b8e4d8, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 23c4986d0cd78364bbd41b8165b8e4d8, type: 3}

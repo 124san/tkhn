@@ -360,6 +360,10 @@ public class PlayerControl : MonoBehaviour {
     public void Death() {
         if(!isDead && !armor){
             audioManager.Play("Die");
+            var collider = GetComponent<Collider2D>();
+            collider.enabled = false;
+            var groundSensor = GetComponentInChildren<GroundSensor>();
+            groundSensor.gameObject.SetActive(false);
             isDead = true;
             currSpeed = 0.0f;
             Debug.Log("game over");

@@ -616,7 +616,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 106.4}
-  m_SizeDelta: {x: 700, y: 255.7}
+  m_SizeDelta: {x: 732.3, y: 298.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1811209459
 MonoBehaviour:
@@ -660,7 +660,9 @@ MonoBehaviour:
     Z:
     Attack
 
-    X: Dash (in air only, consumes jump)'
+    X: Dash (in air only, requires Red Boots
+
+    and consumes jump)'
 --- !u!222 &1811209460
 CanvasRenderer:
   m_ObjectHideFlags: 0
